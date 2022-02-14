@@ -1,0 +1,1 @@
+stautas-admin-plugin
