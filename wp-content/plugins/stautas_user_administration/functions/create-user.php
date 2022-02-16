@@ -9,5 +9,8 @@ require_once($path.'/wp-load.php');
 
   echo $username . $password . $email;
 
-	wp_create_user( $username, $password, $email );
+         global $wpdb;     
+  $table_name = $wpdb->prefix . 'stautas_users';         
+  $wpdb->query("INSERT INTO $table_name (Username, Password, Email, Role) VALUES ('$username', '$password', '$email', 1);"); 
+
 ?>

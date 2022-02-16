@@ -1,6 +1,6 @@
 <div class="content-wrap">
 	<div class="header-title-wrap">
-		<h1><?php echo get_admin_page_title(); ?></h1>
+		<h1><?php echo $title; ?></h1>
 	</div>
 	<nav>
 		<ul>

@@ -1,5 +1,6 @@
 <?php
 $pluginName = '/stautas_user_administration';
+$title = get_admin_page_title();
 include(WP_PLUGIN_DIR . $pluginName . '/includes/header.php');
 
 function randomPassword() {
