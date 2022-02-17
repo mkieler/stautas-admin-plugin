@@ -19,8 +19,14 @@ function randomPassword() {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
 <div class="wrap">
-	<form method="post" action="<?php echo plugins_url() . $pluginName . '/functions/create-user.php' ?>">
+	<form method="post" action="<?php echo plugins_url() . $pluginName . '/API/company/create-company.php' ?>">
 		<table>
+			<tr>
+				<th>Firmanavn (obligatorisk)</th>
+				<td>
+					<input required type="text" name="company-name">
+				</td>
+			</tr>
 			<tr>
 				<th>Brugernavn (obligatorisk)</th>
 				<td>

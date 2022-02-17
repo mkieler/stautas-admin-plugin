@@ -1,0 +1,61 @@
+CREATE TABLE IF NOT EXISTS `wp_stautas_company` (
+  `ID` int(6) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Name` varchar(30) NOT NULL,
+  `reg_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+);
+
+
+CREATE TABLE IF NOT EXISTS `wp_stautas_users` (
+  `ID` int(6) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Username` varchar(30) NOT NULL,
+  `Company_FK`int(6) UNSIGNED DEFAULT NULL,
+  `Password` varchar(30) NOT NULL,
+  `Email` varchar(50) NOT NULL,
+  `Role` int(2) NOT NULL,
+  `reg_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+FOREIGN KEY (Company_FK) REFERENCES wp_stautas_company(ID)
+);
+
+
+CREATE TABLE IF NOT EXISTS `wp_stautas_admin_users` (
+  `ID` int(6) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `UserID_FK` int(6) UNSIGNED NOT NULL,
+  `reg_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+   FOREIGN KEY (UserID_FK) REFERENCES wp_stautas_users(ID)
+);
+
+
+CREATE TABLE IF NOT EXISTS `wp_stautas_sub_users` (
+  `ID` int(6) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `UserID_FK` int(6) UNSIGNED NOT NULL,
+  `ParrentUserID_FK` int(6) UNSIGNED NOT NULL,
+  `reg_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+   FOREIGN KEY (UserID_FK) REFERENCES wp_stautas_users(ID)
+);
+
+
+
+
+
+
+insert into wp_stautas_company (id, Name) VALUES (1, 'Test company');
+
+INSERT INTO `wp_stautas_users` (`ID`, `Username`, `Company_FK`, `Password`, `Email`, `Role`, `reg_date`) VALUES
+(1, 'test', 1, 'lBCWPtqC', 'test@test.dk', 1, '2022-02-15 09:14:45');
+
+insert into wp_stautas_admin_users (id, UserID_FK) VALUES (1, 1);
+
+insert into wp_stautas_sub_users (id, UserID_FK, ParrentUserID_FK) VALUES (1, 1, 1);
+
+
+
+
+
+
+
+DROP TABLE wp_stautas_sub_users;
+DROP TABLE wp_stautas_admin_users;
+DROP TABLE wp_stautas_users;
+DROP table wp_stautas_company;
+
+
