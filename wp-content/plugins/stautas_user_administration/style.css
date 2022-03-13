@@ -1,3 +1,4 @@
+
 :root {
   --primary: #1e90ff;
 }
@@ -6,6 +7,10 @@
 	box-sizing: border-box;
 }
 
+
+#wpfooter{
+	display: none;
+}
 
 .content-wrap{
 	padding: 60px 80px;
@@ -40,6 +45,11 @@ nav a{
 	background: white;
 }
 
+nav a.active{
+	color: var(--primary);
+	font-weight: bold;
+}
+
 nav a:hover{
 	color: var(--primary);
 }
@@ -63,5 +73,8 @@ button{
 	border: none;
 }
 
+#wpwrap, #wpcontent, #wpbody {
+    height: 100%;
+}
 
 

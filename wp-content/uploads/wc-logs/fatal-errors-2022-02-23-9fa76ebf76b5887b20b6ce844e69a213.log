@@ -1,0 +1,466 @@
+2022-02-23T10:23:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "login_page_functions" not found or invalid function name in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\header.php(21): wp_head()
+#4 C:\xampp\htdocs\stautas\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\stautas\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\stautas\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\index.php(15): get_header()
+#8 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php på linje 307
+
+2022-02-23T10:23:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "login_page_functions" not found or invalid function name in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\header.php(21): wp_head()
+#4 C:\xampp\htdocs\stautas\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\stautas\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\stautas\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\index.php(15): get_header()
+#8 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php på linje 307
+
+2022-02-23T10:27:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "login_page_functions" not found or invalid function name in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\header.php(21): wp_head()
+#4 C:\xampp\htdocs\stautas\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\stautas\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\stautas\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\index.php(15): get_header()
+#8 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php på linje 307
+
+2022-02-23T10:28:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "login_page_functions" not found or invalid function name in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\header.php(21): wp_head()
+#4 C:\xampp\htdocs\stautas\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\stautas\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\stautas\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\index.php(15): get_header()
+#8 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php på linje 307
+
+2022-02-23T10:36:41+00:00 CRITICAL syntax error, unexpected token "echo" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\settings.php på linje 36
+
+2022-02-23T11:05:03+00:00 CRITICAL Uncaught Error: Class "CompanyDB" not found in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php:13
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(12): ClientDB->getAllClients()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php(9): ClientController->getAllClients()
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php på linje 13
+
+2022-02-23T11:06:01+00:00 CRITICAL Uncaught Error: Class "CompanyDB" not found in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php:13
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(12): ClientDB->getAllClients()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php(9): ClientController->getAllClients()
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php på linje 13
+
+2022-02-23T11:06:25+00:00 CRITICAL Uncaught Error: Class "CompanyDB" not found in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php:13
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(12): ClientDB->getAllClients()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php(9): ClientController->getAllClients()
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php på linje 13
+
+2022-02-23T11:07:20+00:00 CRITICAL Uncaught Error: Class "CompanyDB" not found in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php:14
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(12): ClientDB->getAllClients()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php(9): ClientController->getAllClients()
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php på linje 14
+
+2022-02-23T11:40:05+00:00 CRITICAL Unmatched '}' i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\all-companies.php på linje 12
+
+2022-02-23T12:18:18+00:00 CRITICAL syntax error, unexpected token "include", expecting ";" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\index.php på linje 22
+
+2022-02-23T12:55:58+00:00 CRITICAL Uncaught Error: Call to undefined function getClientById() in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php:9
+Stack trace:
+#0 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php på linje 9
+
+2022-02-23T12:56:13+00:00 CRITICAL Uncaught Error: Call to undefined method ClientController::getClientById() in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php:9
+Stack trace:
+#0 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php på linje 9
+
+2022-02-23T13:02:23+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\client-details.php:8
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\index.php(20): include()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\set-admin-pages.php(30): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): stautasAllClients('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin.php(259): do_action('stautas-admin_p...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\client-details.php på linje 8
+
+2022-02-23T13:03:15+00:00 CRITICAL syntax error, unexpected variable "$hasRedirectUrl" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\settings.php på linje 13
+
+2022-02-23T19:38:13+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\all-clients.php:26
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\index.php(39): include()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\set-admin-pages.php(28): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): stautasAllClients('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin.php(259): do_action('stautas-admin_p...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\all-clients.php på linje 26
+
+2022-02-23T19:53:40+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:33
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser(Object(stdClass), NULL, 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser(Object(stdClass), NULL, 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 33
+
+2022-02-23T19:54:19+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:33
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser(Object(stdClass), '11', 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser(Object(stdClass), '11', 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 33
+
+2022-02-23T19:56:02+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:33
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser(Object(stdClass), '11', 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser(Object(stdClass), '11', 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 33
+
+2022-02-23T19:57:41+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:33
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser('4', '11', 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser('4', '11', 'test', 'cSzqVBBCOVf06eI', 'test@test.dk', 'test', 'test', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 33
+
+2022-02-23T20:04:39+00:00 CRITICAL syntax error, unexpected token "." i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php på linje 18
+
+2022-02-23T20:04:51+00:00 CRITICAL syntax error, unexpected token "." i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php på linje 18
+
+2022-02-23T20:04:59+00:00 CRITICAL syntax error, unexpected token "." i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php på linje 18
+
+2022-02-23T20:05:01+00:00 CRITICAL syntax error, unexpected token "." i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php på linje 18
+
+2022-02-23T20:15:29+00:00 CRITICAL Uncaught Error: Class "Elementor_Logout_Url" not found in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:33
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): register_acf_average_dynamic_tag(Object(Elementor\Core\DynamicTags\Manager))
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(261): do_action('elementor/dynam...', Object(Elementor\Core\DynamicTags\Manager))
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(390): Elementor\Core\DynamicTags\Manager->get_tags()
+#5 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(406): Elementor\Core\DynamicTags\Manager->get_tags_config()
+#6 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(578): Elementor\Core\DynamicTags\Manager->get_config()
+#7 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#8 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\stautas\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#11 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts('')
+#12 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#16 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(317): include('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(158): Elementor\Core\Editor\Editor->print_editor_template()
+#18 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->init('')
+#19 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#20 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\stautas\wp-admin\admin.php(419): do_action('admin_action_el...')
+#22 C:\xampp\htdocs\stautas\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php på linje 33
+
+2022-02-23T20:16:31+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:17:08+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:17:43+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:19:07+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:19:16+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:22:18+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:23:06+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:29:50+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:31:05+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:32:50+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:33:35+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:34:20+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:35:09+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:36:30+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:36:48+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:38:28+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:39:07+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:39:40+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:40:34+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:47:08+00:00 CRITICAL Cannot redeclare register_site_dynamic_tag_group() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:8) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:47:09+00:00 CRITICAL Cannot redeclare register_site_dynamic_tag_group() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:8) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:47:10+00:00 CRITICAL Cannot redeclare register_site_dynamic_tag_group() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:8) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:47:28+00:00 CRITICAL Cannot redeclare register_site_dynamic_tag_group() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:8) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:47:29+00:00 CRITICAL Cannot redeclare register_site_dynamic_tag_group() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:8) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:47:29+00:00 CRITICAL Cannot redeclare register_site_dynamic_tag_group() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:8) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:48:01+00:00 CRITICAL Cannot redeclare test() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php:18) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:48:02+00:00 CRITICAL Cannot redeclare test() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php:18) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:48:02+00:00 CRITICAL Cannot redeclare test() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php:18) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 28
+
+2022-02-23T20:48:35+00:00 CRITICAL Cannot redeclare register_acf_average_dynamic_tag() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:24) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 49
+
+2022-02-23T20:48:36+00:00 CRITICAL Cannot redeclare register_acf_average_dynamic_tag() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:24) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 49
+
+2022-02-23T20:48:36+00:00 CRITICAL Cannot redeclare register_acf_average_dynamic_tag() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php:24) i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\elementor-acf-average-dynamic-tag.php på linje 49
+
+2022-02-23T20:49:06+00:00 CRITICAL Cannot declare class Elementor_Dynamic_Tag_ACF_Average, because the name is already in use i C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\dynamic-tags\acf-average-dynamic-tag.php på linje 13
+
+2022-02-23T20:56:16+00:00 CRITICAL Cannot redeclare hello() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\elementor-test\register-elementor-tags.php:20) i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\register-elementor-tags.php på linje 8
+
+2022-02-23T20:56:52+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:57:38+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+
+2022-02-23T20:58:29+00:00 CRITICAL Uncaught Error: Call to a member function get_content() on null in C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php:449
+Stack trace:
+#0 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php på linje 449
+

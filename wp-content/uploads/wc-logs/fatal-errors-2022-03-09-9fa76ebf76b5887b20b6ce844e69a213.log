@@ -1,0 +1,49 @@
+2022-03-09T09:20:26+00:00 CRITICAL Unclosed '{' on line 48 i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 132
+
+2022-03-09T09:21:03+00:00 CRITICAL Unclosed '{' on line 48 i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 132
+
+2022-03-09T09:21:07+00:00 CRITICAL Unclosed '{' on line 48 i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 132
+
+2022-03-09T09:22:36+00:00 CRITICAL Unclosed '{' on line 48 i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 97
+
+2022-03-09T09:23:02+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 97
+
+2022-03-09T09:25:36+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 133
+
+2022-03-09T09:26:12+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 133
+
+2022-03-09T09:27:05+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 116
+
+2022-03-09T09:27:37+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 100
+
+2022-03-09T09:31:51+00:00 CRITICAL Unmatched '}' i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 89
+
+2022-03-09T12:02:49+00:00 CRITICAL Uncaught ArgumentCountError: print_r() expects at least 1 argument, 0 given in C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php:56
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php(56): print_r()
+#1 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 56
+
+2022-03-09T12:03:37+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php:69
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php(69): in_array('uncategorized', '["fleece","fors...')
+#1 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\themes\astra-child\woocommerce\archive-product.php på linje 69
+
+2022-03-09T16:30:38+00:00 CRITICAL Uncaught TypeError: checkIfStautasAdmin(): Argument #1 ($user) must be of type WP_User, null given, called in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php on line 148 and defined in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php:190
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php(148): checkIfStautasAdmin(NULL)
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): login_setup('Molin', Object(WP_User))
+#2 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\stautas\wp-includes\user.php(110): do_action('wp_login', 'Molin', Object(WP_User))
+#5 C:\xampp\htdocs\stautas\wp-login.php(1211): wp_signon(Array, false)
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php på linje 190
+

@@ -35,6 +35,28 @@ CREATE TABLE IF NOT EXISTS `wp_stautas_sub_users` (
 
 
 
+CREATE TABLE IF NOT EXISTS  wp_stautas_user_admin_data (
+ID INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+UserID_FK bigint(20) UNSIGNED NOT NULL,
+Company_FK INT(6) UNSIGNED NOT NULL,
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+FOREIGN KEY (UserID_FK) REFERENCES wp_users(ID),
+FOREIGN KEY (Company_FK) REFERENCES wp_stautas_company(ID)
+);
+
+
+CREATE TABLE IF NOT EXISTS  wp_stautas_user_employee_data (
+ID INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+UserID_FK bigint(20) UNSIGNED NOT NULL,
+ParrentID_FK INT(6) UNSIGNED NOT NULL,
+Company_FK INT(6) UNSIGNED NOT NULL,
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+FOREIGN KEY (UserID_FK) REFERENCES wp_users(ID),
+FOREIGN KEY (ParrentID_FK) REFERENCES wp_stautas_user_admin_data(ID),
+FOREIGN KEY (Company_FK) REFERENCES wp_stautas_company(ID)
+);
+
+
 
 
 
@@ -50,12 +72,17 @@ insert into wp_stautas_sub_users (id, UserID_FK, ParrentUserID_FK) VALUES (1, 1,
 
 
 
+INSERT INTO wp_stautas_user_admin_data(UserID_FK, Company_FK) VALUES (6, 1);
+INSERT INTO wp_stautas_user_employee_data(UserID_FK, ParrentID_FK, Company_FK) VALUES (6, 1, 1);
 
 
 
-DROP TABLE wp_stautas_sub_users;
-DROP TABLE wp_stautas_admin_users;
-DROP TABLE wp_stautas_users;
-DROP table wp_stautas_company;
 
+
+
+
+DROP TABLE wp_stautas_user_employee_data;
+DROP TABLE wp_stautas_user_admin_data;
+DROP TABLE wp_stautas_settings;
+DROP TABLE wp_stautas_company;
 

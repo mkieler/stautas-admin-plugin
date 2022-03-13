@@ -1,0 +1,140 @@
+2022-03-01T07:54:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php on line 120 and exactly 1 expected in C:\xampp\htdocs\stautas\wp-includes\plugin.php:780
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php(120): plugin_dir_path()
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(309): pt_add_page_template_to_dropdown(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\stautas\wp-includes\class-wp-theme.php(1334): apply_filters('theme_page_temp...', Array, Object(WP_Theme), Object(WP_Post), 'page')
+#4 C:\xampp\htdocs\stautas\wp-admin\edit-form-blocks.php(131): WP_Theme->get_page_templates(Object(WP_Post))
+#5 C:\xampp\htdocs\stautas\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\plugin.php på linje 780
+
+2022-03-01T08:26:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_template() in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php:135
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): pt_change_page_template('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\stautas\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php på linje 135
+
+2022-03-01T09:48:43+00:00 CRITICAL syntax error, unexpected identifier "get_header", expecting "," or ";" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 21
+
+2022-03-01T09:49:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php:15
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 15
+
+2022-03-01T09:51:18+00:00 CRITICAL syntax error, unexpected variable "$client_json" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 17
+
+2022-03-01T10:02:52+00:00 CRITICAL Uncaught Error: Call to a member function count() on array in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\CompanyDB.php:46
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\CompanyDB.php(29): CompanyDB->buildCompanyObjects(Array)
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(35): CompanyDB->getCompanyByID('1')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(22): ClientDB->getClientById('1')
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\read-clients.php(9): ClientController->getClientById('1')
+#4 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\CompanyDB.php på linje 46
+
+2022-03-01T10:58:57+00:00 CRITICAL syntax error, unexpected token "if", expecting ":" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 38
+
+2022-03-01T19:15:01+00:00 CRITICAL Uncaught Error: Call to undefined function randomPassword() in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php:41
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\shortcodes.php(356): create_sub_user('', '', 'opretunderbruge...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(opretu...', 'do_shortcode_ta...', '[opretunderbrug...')
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[opretunderbrug...')
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#14 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php på linje 41
+
+2022-03-01T19:15:15+00:00 CRITICAL Uncaught Error: Call to undefined function randomPassword() in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php:41
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\shortcodes.php(356): create_sub_user('', '', 'opretunderbruge...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(opretu...', 'do_shortcode_ta...', '[opretunderbrug...')
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[opretunderbrug...')
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#14 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php på linje 41
+
+2022-03-01T19:15:27+00:00 CRITICAL Uncaught Error: Call to undefined function randomPassword() in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php:41
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\shortcodes.php(356): create_sub_user('', '', 'opretunderbruge...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(opretu...', 'do_shortcode_ta...', '[opretunderbrug...')
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[opretunderbrug...')
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(725): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(741): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(741): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#12 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(1529): Elementor\Element_Base->print_element()
+#13 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(1002): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\frontend.php(1006): Elementor\Frontend->get_builder_content(161)
+#16 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Frontend->apply_builder_in_content('[opretunderbrug...')
+#17 C:\xampp\htdocs\stautas\wp-includes\plugin.php(189): WP_Hook->apply_filters('[opretunderbrug...', Array)
+#18 C:\xampp\htdocs\stautas\wp-includes\post-template.php(253): apply_filters('the_content', '[opretunderbrug...')
+#19 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php(78): the_content()
+#20 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php på linje 41
+
+2022-03-01T20:03:16+00:00 CRITICAL Cannot redeclare randomPassword() (previously declared in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\shortcodes.php:5) i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\pages\admin\clients\create-client.php på linje 11
+
+2022-03-01T20:54:57+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:49
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser(NULL, NULL, 'mattiasmolin449...', '2FbILQ2QuI2Vg1Q', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser(NULL, NULL, 'mattiasmolin449...', '2FbILQ2QuI2Vg1Q', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 49
+
+2022-03-01T20:56:02+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:49
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser(NULL, NULL, 'Mattias', 'yt231ynS9dzJavg', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser(NULL, NULL, 'Mattias', 'yt231ynS9dzJavg', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 49
+
+2022-03-01T20:56:58+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:49
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser(NULL, NULL, 'mattiasmolin449...', 'rBJhv1p2zsqZr54', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser(NULL, NULL, 'mattiasmolin449...', 'rBJhv1p2zsqZr54', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 49
+
+2022-03-01T20:57:59+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:49
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser(NULL, NULL, 'mattiasmolin449...', '0lXwdgq1j5ydzgW', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser(NULL, NULL, 'mattiasmolin449...', '0lXwdgq1j5ydzgW', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 49
+

@@ -1,0 +1,193 @@
+2022-03-04T09:26:06+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php:41
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\tag.php(35): Elementor_Company_Name->render()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(449): Elementor\Core\DynamicTags\Tag->get_content()
+#2 [internal function]: Elementor\Core\DynamicTags\Manager->ajax_render_tags(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#5 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#8 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php på linje 41
+
+2022-03-04T09:30:17+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php:41
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\tag.php(35): Elementor_Company_Name->render()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(216): Elementor\Core\DynamicTags\Tag->get_content()
+#2 [internal function]: Elementor\Core\DynamicTags\Manager->get_tag_data_content('e676965', 'company-name', Array)
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(109): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(74): Elementor\Core\DynamicTags\Manager->parse_tag_text('[elementor-tag ...', Array, Array)
+#5 [internal function]: Elementor\Core\DynamicTags\Manager->Elementor\Core\DynamicTags\{closure}(Array)
+#6 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(73): preg_replace_callback('/\\[elementor-ta...', Object(Closure), '[elementor-tag ...')
+#7 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\controls\base-data.php(91): Elementor\Core\DynamicTags\Manager->parse_tags_text('[elementor-tag ...', Array, Array)
+#8 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1266): Elementor\Base_Data_Control->parse_tags('[elementor-tag ...', Array)
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1117): Elementor\Controls_Stack->parse_dynamic_settings(Array)
+#10 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1202): Elementor\Controls_Stack->get_parsed_dynamic_settings()
+#11 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\widgets\heading.php(302): Elementor\Controls_Stack->get_settings_for_display()
+#12 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Widget_Heading->render()
+#13 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#14 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(282): Elementor\Widget_Base->render_content()
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#16 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#17 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#18 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#19 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#20 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\stautas\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#22 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php på linje 41
+
+2022-03-04T09:40:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function login_setup(), 1 passed in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php on line 309 and exactly 2 expected in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php:147
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(309): login_setup('test')
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\stautas\wp-includes\user.php(110): do_action('wp_login', 'test', Object(WP_User))
+#4 C:\xampp\htdocs\stautas\wp-login.php(1211): wp_signon(Array, false)
+#5 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php på linje 147
+
+2022-03-04T09:41:59+00:00 CRITICAL Uncaught TypeError: login_setup(): Argument #1 ($WPuser) must be of type WP_User, string given, called in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php on line 309 and defined in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php:147
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(309): login_setup('test')
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\stautas\wp-includes\user.php(110): do_action('wp_login', 'test', Object(WP_User))
+#4 C:\xampp\htdocs\stautas\wp-login.php(1211): wp_signon(Array, false)
+#5 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php på linje 147
+
+2022-03-04T09:43:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function login_setup(), 1 passed in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php on line 309 and exactly 2 expected in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php:147
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(309): login_setup('test')
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\stautas\wp-includes\user.php(110): do_action('wp_login', 'test', Object(WP_User))
+#4 C:\xampp\htdocs\stautas\wp-login.php(1211): wp_signon(Array, false)
+#5 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php på linje 147
+
+2022-03-04T10:08:39+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php(18): json_decode(Object(stdClass))
+#1 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 18
+
+2022-03-04T17:02:54+00:00 CRITICAL Uncaught Error: Undefined constant "test" in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php:31
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\tag.php(35): Elementor_Company_Name->render()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(216): Elementor\Core\DynamicTags\Tag->get_content()
+#2 [internal function]: Elementor\Core\DynamicTags\Manager->get_tag_data_content('e676965', 'company-name', Array)
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(109): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(74): Elementor\Core\DynamicTags\Manager->parse_tag_text('[elementor-tag ...', Array, Array)
+#5 [internal function]: Elementor\Core\DynamicTags\Manager->Elementor\Core\DynamicTags\{closure}(Array)
+#6 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(73): preg_replace_callback('/\\[elementor-ta...', Object(Closure), '[elementor-tag ...')
+#7 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\controls\base-data.php(91): Elementor\Core\DynamicTags\Manager->parse_tags_text('[elementor-tag ...', Array, Array)
+#8 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1266): Elementor\Base_Data_Control->parse_tags('[elementor-tag ...', Array)
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1117): Elementor\Controls_Stack->parse_dynamic_settings(Array)
+#10 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1202): Elementor\Controls_Stack->get_parsed_dynamic_settings()
+#11 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\widgets\heading.php(302): Elementor\Controls_Stack->get_settings_for_display()
+#12 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Widget_Heading->render()
+#13 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#14 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#16 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#17 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(876): Elementor\Element_Base->get_raw_data(true)
+#18 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(553): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#19 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1011): Elementor\Core\Base\Document->get_initial_config()
+#20 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(522): Elementor\Controls_Stack->get_config()
+#21 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#22 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#23 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#24 C:\xampp\htdocs\stautas\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#25 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts('')
+#26 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#27 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#28 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#29 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#30 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(317): include('C:\\xampp\\htdocs...')
+#31 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(158): Elementor\Core\Editor\Editor->print_editor_template()
+#32 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->init('')
+#33 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#34 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#35 C:\xampp\htdocs\stautas\wp-admin\admin.php(419): do_action('admin_action_el...')
+#36 C:\xampp\htdocs\stautas\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#37 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php på linje 31
+
+2022-03-04T17:13:47+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php:31
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\tag.php(35): Elementor_Company_Name->render()
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(216): Elementor\Core\DynamicTags\Tag->get_content()
+#2 [internal function]: Elementor\Core\DynamicTags\Manager->get_tag_data_content('e676965', 'company-name', Array)
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(109): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(74): Elementor\Core\DynamicTags\Manager->parse_tag_text('[elementor-tag ...', Array, Array)
+#5 [internal function]: Elementor\Core\DynamicTags\Manager->Elementor\Core\DynamicTags\{closure}(Array)
+#6 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\dynamic-tags\manager.php(73): preg_replace_callback('/\\[elementor-ta...', Object(Closure), '[elementor-tag ...')
+#7 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\controls\base-data.php(91): Elementor\Core\DynamicTags\Manager->parse_tags_text('[elementor-tag ...', Array, Array)
+#8 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1266): Elementor\Base_Data_Control->parse_tags('[elementor-tag ...', Array)
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1117): Elementor\Controls_Stack->parse_dynamic_settings(Array)
+#10 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1202): Elementor\Controls_Stack->get_parsed_dynamic_settings()
+#11 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\widgets\heading.php(302): Elementor\Controls_Stack->get_settings_for_display()
+#12 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2192): Elementor\Widget_Heading->render()
+#13 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#14 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\widget-base.php(708): Elementor\Widget_Base->render_content()
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#16 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#17 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(876): Elementor\Element_Base->get_raw_data(true)
+#18 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(553): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#19 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1011): Elementor\Core\Base\Document->get_initial_config()
+#20 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(522): Elementor\Controls_Stack->get_config()
+#21 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#22 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#23 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#24 C:\xampp\htdocs\stautas\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#25 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts('')
+#26 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#27 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#28 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#29 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#30 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(317): include('C:\\xampp\\htdocs...')
+#31 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(158): Elementor\Core\Editor\Editor->print_editor_template()
+#32 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->init('')
+#33 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#34 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#35 C:\xampp\htdocs\stautas\wp-admin\admin.php(419): do_action('admin_action_el...')
+#36 C:\xampp\htdocs\stautas\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#37 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php på linje 31
+
+2022-03-04T17:15:28+00:00 CRITICAL syntax error, unexpected identifier "wp_get_current_user" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php på linje 31
+
+2022-03-04T17:15:37+00:00 CRITICAL syntax error, unexpected identifier "wp_get_current_user" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php på linje 31
+
+2022-03-04T17:15:39+00:00 CRITICAL syntax error, unexpected identifier "wp_get_current_user" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\dynamic-tags\company-name-tag.php på linje 31
+
+2022-03-04T17:20:20+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(64): UserDB->createAdminUser(54, 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('Profiltech Aps', 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('Profiltech Aps', 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-03-04T17:20:52+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(64): UserDB->createAdminUser(55, 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('Profiltech Aps', 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('Profiltech Aps', 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-03-04T17:21:08+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(64): UserDB->createAdminUser(56, 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('Profiltech Aps', 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('Profiltech Aps', 'mattias', 'test', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+

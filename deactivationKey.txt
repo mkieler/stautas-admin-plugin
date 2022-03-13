@@ -1,0 +1,1 @@
+/wp-content/plugins/stautas_user_administration/API/deactivation.php?deactivation-key=8ef77f6a-3ae0-484b-80fd-485260394492

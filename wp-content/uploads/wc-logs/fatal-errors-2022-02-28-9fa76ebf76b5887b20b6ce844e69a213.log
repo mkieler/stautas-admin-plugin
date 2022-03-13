@@ -1,0 +1,134 @@
+2022-02-28T08:43:25+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:33
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser('9', '27', 'anothertest', 'Ogh1N4nKGQwhlg5', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser('9', '27', 'anothertest', 'Ogh1N4nKGQwhlg5', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 33
+
+2022-02-28T09:43:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "pt_add_page_template_to_dropdown" not found or invalid function name in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php:309
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-theme.php(1334): apply_filters('theme_page_temp...', Array, Object(WP_Theme), NULL, 'page')
+#2 C:\xampp\htdocs\stautas\wp-admin\includes\theme.php(145): WP_Theme->get_page_templates(NULL, 'page')
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\modules\page-templates\module.php(280): get_page_templates(NULL, 'page')
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\modules\page-templates\module.php(250): Elementor\Modules\PageTemplates\Module->register_template_control(Object(Elementor\Core\DocumentTypes\Page))
+#5 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Modules\PageTemplates\Module->action_register_template_control(Object(Elementor\Core\DocumentTypes\Page))
+#6 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(598): do_action('elementor/docum...', Object(Elementor\Core\DocumentTypes\Page))
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\document-types\page-base.php(61): Elementor\Core\Base\Document->register_controls()
+#10 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2253): Elementor\Core\DocumentTypes\PageBase->register_controls()
+#11 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#12 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#13 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\settings\page\model.php(173): Elementor\Controls_Stack->get_controls()
+#14 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2253): Elementor\Core\Settings\Page\Model->register_controls()
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#16 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(791): Elementor\Controls_Stack->get_stack()
+#17 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\settings\manager.php(152): Elementor\Controls_Stack->get_tabs_controls()
+#18 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(510): Elementor\Core\Settings\Manager::get_settings_managers_config()
+#19 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#20 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#21 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#22 C:\xampp\htdocs\stautas\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#23 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts('')
+#24 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#25 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#26 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#27 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#28 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(317): include('C:\\xampp\\htdocs...')
+#29 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(158): Elementor\Core\Editor\Editor->print_editor_template()
+#30 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->init('')
+#31 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#32 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#33 C:\xampp\htdocs\stautas\wp-admin\admin.php(419): do_action('admin_action_el...')
+#34 C:\xampp\htdocs\stautas\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#35 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php på linje 309
+
+2022-02-28T09:43:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "pt_add_page_template_to_dropdown" not found or invalid function name in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php:309
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-theme.php(1334): apply_filters('theme_page_temp...', Array, Object(WP_Theme), NULL, 'page')
+#2 C:\xampp\htdocs\stautas\wp-admin\includes\theme.php(145): WP_Theme->get_page_templates(NULL, 'page')
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\modules\page-templates\module.php(280): get_page_templates(NULL, 'page')
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\modules\page-templates\module.php(250): Elementor\Modules\PageTemplates\Module->register_template_control(Object(Elementor\Core\DocumentTypes\Page))
+#5 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Modules\PageTemplates\Module->action_register_template_control(Object(Elementor\Core\DocumentTypes\Page))
+#6 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(598): do_action('elementor/docum...', Object(Elementor\Core\DocumentTypes\Page))
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\document-types\page-base.php(61): Elementor\Core\Base\Document->register_controls()
+#10 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2253): Elementor\Core\DocumentTypes\PageBase->register_controls()
+#11 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#12 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#13 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\settings\page\model.php(173): Elementor\Controls_Stack->get_controls()
+#14 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2253): Elementor\Core\Settings\Page\Model->register_controls()
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#16 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(791): Elementor\Controls_Stack->get_stack()
+#17 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\settings\manager.php(152): Elementor\Controls_Stack->get_tabs_controls()
+#18 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(510): Elementor\Core\Settings\Manager::get_settings_managers_config()
+#19 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#20 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#21 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#22 C:\xampp\htdocs\stautas\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#23 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts('')
+#24 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#25 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#26 C:\xampp\htdocs\stautas\wp-includes\general-template.php(3042): do_action('wp_head')
+#27 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#28 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(317): include('C:\\xampp\\htdocs...')
+#29 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\editor\editor.php(158): Elementor\Core\Editor\Editor->print_editor_template()
+#30 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Core\Editor\Editor->init('')
+#31 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#32 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#33 C:\xampp\htdocs\stautas\wp-admin\admin.php(419): do_action('admin_action_el...')
+#34 C:\xampp\htdocs\stautas\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#35 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php på linje 309
+
+2022-02-28T12:18:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "pt_add_page_template_to_dropdown" not found or invalid function name in C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php:309
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-theme.php(1334): apply_filters('theme_page_temp...', Array, Object(WP_Theme), NULL, 'page')
+#2 C:\xampp\htdocs\stautas\wp-admin\includes\theme.php(145): WP_Theme->get_page_templates(NULL, 'page')
+#3 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\modules\page-templates\module.php(280): get_page_templates(NULL, 'page')
+#4 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\modules\page-templates\module.php(250): Elementor\Modules\PageTemplates\Module->register_template_control(Object(Elementor\Core\DocumentTypes\Page))
+#5 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): Elementor\Modules\PageTemplates\Module->action_register_template_control(Object(Elementor\Core\DocumentTypes\Page))
+#6 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\document.php(598): do_action('elementor/docum...', Object(Elementor\Core\DocumentTypes\Page))
+#9 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\document-types\page-base.php(61): Elementor\Core\Base\Document->register_controls()
+#10 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2253): Elementor\Core\DocumentTypes\PageBase->register_controls()
+#11 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#12 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#13 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2340): Elementor\Controls_Stack->get_controls()
+#14 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(1099): Elementor\Controls_Stack->sanitize_settings(Array)
+#15 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\includes\base\controls-stack.php(2087): Elementor\Controls_Stack->get_data('settings')
+#16 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#17 C:\xampp\htdocs\stautas\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#18 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\functions.php(198): Elementor\Core\Base\Base_Object->get_settings('hide_title')
+#19 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): hello_elementor_check_hide_title(true)
+#20 C:\xampp\htdocs\stautas\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#21 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\template-parts\single.php(18): apply_filters('hello_elementor...', true)
+#22 C:\xampp\htdocs\stautas\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\stautas\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#24 C:\xampp\htdocs\stautas\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#25 C:\xampp\htdocs\stautas\wp-content\themes\hello-elementor\index.php(21): get_template_part('template-parts/...')
+#26 C:\xampp\htdocs\stautas\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#27 C:\xampp\htdocs\stautas\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#28 C:\xampp\htdocs\stautas\index.php(17): require('C:\\xampp\\htdocs...')
+#29 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php på linje 309
+
+2022-02-28T12:23:49+00:00 CRITICAL syntax error, unexpected end of file i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 10
+
+2022-02-28T12:51:59+00:00 CRITICAL syntax error, unexpected variable "$args", expecting ":" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 6
+
+2022-02-28T14:20:29+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\templates\userpanel-template.php på linje 3
+
+2022-02-28T19:51:37+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:33
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\UserController.php(11): UserDB->createEmployeeUser('9', '27', 'anothertest', 'Jn5srQnaVHJUX12', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_sub_user')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\User\create-sub-user.php(27): UserController->createEmployeeUser('9', '27', 'anothertest', 'Jn5srQnaVHJUX12', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_sub_user')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 33
+

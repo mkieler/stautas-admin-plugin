@@ -11,54 +11,61 @@ include_once(WP_PLUGIN_DIR . '/stautas_user_administration/API/DBAccess/UserDB.p
 
 class CompanyDB {
 
-
-  function getCompanyById($id){
-    global $wpdb;
-    $result = $wpdb->get_results ( "SELECT * FROM wp_stautas_company where ID = $id" );
-    $company = $this->buildCompanyObject($result);
-    return $company;
-  }
-
-  function getAmountOfUsersInCompany($companyID){
-    global $wpdb;
-    $result = $wpdb->get_results ( "SELECT COUNT(ID) AS NumberOfUsers FROM wp_stautas_users where Company_FK = $companyID;" );
-    $numberOfUsers = $result[0]->NumberOfUsers;
-    return $numberOfUsers;
-  }
-
-
-  function buildCompanyObject($result){
-      $value = $result[0];
-      $company = new Company();
-      $company->companyID = $value->ID;
-      $company->name = $value->Name;
-      $company->numOfUsers = $this->getAmountOfUsersInCompany($value->ID);
-
-    return $company;
-  }
-
-
   function getAllCompanies(){
     global $wpdb;
     $result = $wpdb->get_results ( "SELECT * FROM wp_stautas_company" );
-    $usersArray = $this->buildUserObjects($result);
+    $usersArray = $this->buildCompanyObjects($result);
     return $usersArray;
   }
 
 
-  function buildUserObjects($result){
+
+
+
+
+  function getCompanyByID($id){
+    global $wpdb;
+    $result = $wpdb->get_results ( "SELECT * FROM wp_stautas_company WHERE id = $id" );
+    $usersArray = $this->buildCompanyObjects($result);
+    if($usersArray != null){
+      return $usersArray[0];
+    }
+  }
+
+
+
+
+
+
+  function buildCompanyObjects($result){
     $companyArray = array();
     foreach ( $result as $value ) {
-      $userDB = new UserDB();
       $company = new Company();
       $company->companyID = $value->ID;
       $company->name = $value->Name;
-      $company->adminUser = $userDB->getAdminUserInCompany($value->ID);
-
-      $company->numOfUsers = $this->getAmountOfUsersInCompany($value->ID);
+      $company->categoriesToShow = json_decode($value->Product_categories_filter);
       array_push($companyArray, $company);
     }
-    return $companyArray;
+    if(count($companyArray) != 0){
+      return $companyArray;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+  function insertCompany($companyname, $categoriesJson){
+    global $wpdb;     
+    $table_name = $wpdb->prefix . 'stautas_company';         
+    
+    $wpdb->query("insert into $table_name (Name, Product_categories_filter) VALUES ('$companyname', '$categoriesJson');"); 
+    return $wpdb->insert_id;
   }
 }
 

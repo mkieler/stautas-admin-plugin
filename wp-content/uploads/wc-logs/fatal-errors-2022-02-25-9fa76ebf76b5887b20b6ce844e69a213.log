@@ -1,0 +1,80 @@
+2022-02-25T11:16:55+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(32, 'test', '1x7WExiZIkeBCg8', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('Profiltech Aps', 'test', '1x7WExiZIkeBCg8', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('Profiltech Aps', 'test', '1x7WExiZIkeBCg8', 'mattiasmolin449...', 'Mattias', 'Kieler', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T11:52:46+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(37, 'anothertest', '6tEZQ3TeRNjih8w', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', '6tEZQ3TeRNjih8w', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', '6tEZQ3TeRNjih8w', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T11:57:27+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(38, 'anothertest', 'njpDDTFdEq28jJu', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'njpDDTFdEq28jJu', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'njpDDTFdEq28jJu', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T11:58:53+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(39, 'anothertest', 'zX1BzQp6vwoCGS2', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'zX1BzQp6vwoCGS2', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'zX1BzQp6vwoCGS2', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T12:00:57+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(40, 'anothertest', 'HwlNPPa871cWVEJ', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'HwlNPPa871cWVEJ', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'HwlNPPa871cWVEJ', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T12:02:08+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(41, 'anothertest', 'PiDfgms6DhjP86J', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'PiDfgms6DhjP86J', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'PiDfgms6DhjP86J', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T12:03:18+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(42, 'anothertest', 'EMDcMju5RJDzEci', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'EMDcMju5RJDzEci', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'EMDcMju5RJDzEci', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T12:14:42+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(46, 'anothertest', 'BMm5pTUmXZdZvHz', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'BMm5pTUmXZdZvHz', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'BMm5pTUmXZdZvHz', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T12:14:48+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(47, 'anothertest', 'BMm5pTUmXZdZvHz', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'BMm5pTUmXZdZvHz', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'BMm5pTUmXZdZvHz', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
+2022-02-25T12:17:57+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php:18
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\ClientDB.php(55): UserDB->createAdminUser(48, 'anothertest', 'ni3gz1jz5Sq3nS2', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#1 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Controller\ClientController.php(33): ClientDB->createClient('another test co...', 'anothertest', 'ni3gz1jz5Sq3nS2', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#2 C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\Clients\create-client.php(17): ClientController->createClient('another test co...', 'anothertest', 'ni3gz1jz5Sq3nS2', 'anothertest@tes...', 'anothertest', 'anothertest', 'client_admin')
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\API\DBAccess\UserDB.php på linje 18
+
