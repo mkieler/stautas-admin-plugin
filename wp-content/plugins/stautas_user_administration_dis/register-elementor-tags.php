@@ -15,7 +15,7 @@ function register_tag_group( $dynamic_tags_manager ) {
 	);
 
 }
-add_action( 'elementor/dynamic_tags/register', 'register_tag_group' );
+//add_action( 'elementor/dynamic_tags/register', 'register_tag_group' );
 
 
 
@@ -36,7 +36,7 @@ function register_dynamic_tags( $dynamic_tags_manager ) {
 	$dynamic_tags_manager->register( new \Elementor_Company_Name );
 	
 }
-add_action( 'elementor/dynamic_tags/register_tags', 'register_dynamic_tags' );
+//add_action( 'elementor/dynamic_tags/register_tags', 'register_dynamic_tags' );
 
 
 

@@ -1,10 +1,18 @@
 <?php
 $title = "Opdater klient";
-include(WP_PLUGIN_DIR . '/stautas_user_administration/includes/header.php');
+include(STAUTAS_PLUGIN_DIR . 'view/admin/includes/header.php');
 
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
+}
+
+
+$client;
+if(isset($_GET['id'])){
+	$id = $_GET['id'];
+	$clientController = new ClientController();
+	$client = $clientController->getClientById($id);
 }
 
 
@@ -49,6 +57,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		</table>
 		
+
+		<p style="font-size: 20px; font-weight: 600;">Hvilke kategorier kan kunden købe fra</p>
+
+		<?php $product_cat_array = get_terms( 'product_cat' ); ?>
+		<ul style="columns: 3; -webkit-columns: 3; -moz-columns: 3;">
+		<?php foreach($product_cat_array as $curr_product_cat) : ?>	
+			<li>
+				<?php if(in_array($curr_product_cat->slug, $client->company->categoriesToShow) ) : ?>
+					<input type="checkbox" checked  name="categories[<?php echo $curr_product_cat->slug ?>]">	
+				<?php else : ?>
+					<input type="checkbox"  name="categories[<?php echo $curr_product_cat->slug ?>]">
+				<?php endif; ?>
+				
+				<label for="<?php echo $curr_product_cat->slug ?>"><?php echo $curr_product_cat->name ?></label>
+			</li>
+		<?php endforeach; ?>
+		</ul>
+
+
 		<button type="submit">Opdater klient</button>
 	</form>
 </div>
@@ -95,5 +122,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php
 
-include(WP_PLUGIN_DIR . '/stautas_user_administration/includes/footer.php');
+include(STAUTAS_PLUGIN_DIR . 'view/admin/includes/footer.php');
 ?>

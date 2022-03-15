@@ -1,17 +1,33 @@
 <?php 
 
-
+$client;
+if(isset($_GET['id'])){
+	$id = $_GET['id'];
+	$clientController = new ClientController();
+	$client = $clientController->getClientById($id);
+}
 
 $title = $client->company->name;
-include(WP_PLUGIN_DIR . '/stautas_user_administration/includes/header.php');
+include(STAUTAS_PLUGIN_DIR . 'view/admin/includes/header.php');
 
 
-print_r($client);
+
+if(isset($_GET['status'])) : 
+	$status = $_GET['status'];
+	if($status == "user-added-successfully") : ?>
+		<div id="post-status-message" class="success">
+			<div id="status-info">
+				<i class="fa-solid"></i><p>Brugeren blev tilføjet til <?php echo $client->company->name ?></p>
+			</div>
+			<i id="close-post-status-icon" class="fa-solid fa-times"></i>
+		</div>
+	<?php endif;
+endif;
 ?>
 
 
 
-<div style="display: flex;">
+<div style="display: flex; justify-content: space-between">
 	<div>
 		<h2>Virksomhedsoplysninger</h2>
 		<ul>
@@ -20,7 +36,7 @@ print_r($client);
 			<li>Telefon: +47 12345678</li>
 		</ul>
 	</div>
-	<div style="margin-left: 40px;">
+	<div>
 		<h2>Direkte kontakt person</h2>
 		<ul>
 			<li>Navn: Mattias Molin</li>
@@ -28,6 +44,17 @@ print_r($client);
 			<li>Telefon: +47 12345678</li>
 		</ul>
 	</div>
+</div>
+
+<div>
+	<h2>Kategorier vist til ansat</h2>
+	<p>
+		<?php 
+			foreach ($client->company->categoriesToShow as $key => $value) {
+				echo $value . ", ";
+			}
+		?>
+	</p>
 </div>
 
 
@@ -64,5 +91,5 @@ print_r($client);
 </div>
 
 <?php
-include(WP_PLUGIN_DIR . '/stautas_user_administration/includes/footer.php');
+include(STAUTAS_PLUGIN_DIR . 'view/admin/includes/footer.php');
 ?>

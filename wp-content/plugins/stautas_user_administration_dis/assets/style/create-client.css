@@ -1,0 +1,35 @@
+form td, form th{
+	padding: 10px 0;
+}
+
+form th{
+	width: 300px;
+	text-align: left;
+}
+
+form td{
+	width: 300px;
+	text-align: left;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+form td input{
+	flex: 1;
+}
+
+form button{
+	margin-top: 30px;
+}
+
+
+#togglePassword{
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}
+
+#togglePassword:hover{
+	color: blue;
+}

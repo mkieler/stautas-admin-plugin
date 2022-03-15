@@ -1,0 +1,52 @@
+#post-status-message{
+	display: none;
+	padding: 20px 30px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#status-info{
+	display: flex;
+	align-items: center;
+}
+
+#post-status-message #status-info p{
+	margin: 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#post-status-message #status-info i{
+	font-size: 35px;
+	margin-right: 15px;
+}
+
+#post-status-message.success{
+	display: flex;
+	border-left: solid 7px green;
+}
+
+
+#post-status-message.error{
+	display: flex;
+	border-left: solid 7px darkred;
+}
+
+
+#post-status-message.success #status-info i{
+	color: green;
+}
+
+
+#post-status-message.error #status-info i{
+	color: darkred;
+}
+
+#close-post-status-icon{
+	font-size: 20px; 
+	cursor: pointer;
+}

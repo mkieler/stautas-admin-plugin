@@ -21,7 +21,6 @@ $WPuser = wp_get_current_user();
 
 
 wp_head();
-
 ?>
 
 <div id="user-area-wrap">

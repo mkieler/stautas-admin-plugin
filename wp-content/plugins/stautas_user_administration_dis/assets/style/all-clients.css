@@ -1,0 +1,93 @@
+.clients-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.clients-table td, .clients-table th {
+  border: 1px solid #ddd;
+  padding: 0px;
+}
+
+.clients-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.clients-table tr:hover {
+	background-color: #ddd;
+}
+
+.clients-table th {
+  padding: 12px;
+  text-align: left;
+  background-color: var(--primary);
+  color: white;
+}
+
+.clients-table a{
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+}
+
+.clients-table tr:hover a{
+	color: var(--primary);
+}
+
+.searchWrap{
+	float: right;
+	margin-top: 20px;
+	display: flex;
+}
+
+.searchWrap input{
+	height: 35px;
+	border-radius: 5px 0 0 5px;
+	margin: 0;
+}
+
+.searchWrap button{
+	height: 35px;
+	padding: 0 25px;
+	border-radius: 0 5px 5px 0;
+}
+
+.actions-wrap{
+	margin: 35px 0 -30px 0;
+	justify-content: right;
+	display: flex;
+	align-items: center;
+}
+
+.actions-wrap a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: unset;
+}
+
+.actions-wrap a:hover{
+	color: var(--primary);
+}
+
+.action-icon{
+	background: var(--primary);
+	border-radius: 100px;
+	display: flex;
+
+	color: white;
+	height: 50px;
+	width: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.actions-sub-icon{
+	margin-right: 25px;
+}
+
+.action-icon-text{
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 10px;
+}

@@ -1,0 +1,46 @@
+2022-03-15T10:17:14+00:00 CRITICAL Uncaught Error: Call to undefined function checkIfStautasAdmin() in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php:125
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(307): login_setup('Mattias', Object(WP_User))
+#1 C:\xampp\htdocs\stautas\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\stautas\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\stautas\wp-includes\user.php(110): do_action('wp_login', 'Mattias', Object(WP_User))
+#4 C:\xampp\htdocs\stautas\wp-login.php(1211): wp_signon(Array, false)
+#5 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_user_administration\index.php på linje 125
+
+2022-03-15T10:22:09+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin/ClientController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\stautas-admin.php:46
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-admin\includes\plugin.php(2288): include_once()
+#1 C:\xampp\htdocs\stautas\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('stautas_admin/s...')
+#2 C:\xampp\htdocs\stautas\wp-admin\plugins.php(58): activate_plugin('stautas_admin/s...', 'http://localhos...', false)
+#3 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\stautas-admin.php på linje 46
+
+2022-03-15T10:22:16+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin/ClientController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\stautas-admin.php:46
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-admin\includes\plugin.php(2288): include_once()
+#1 C:\xampp\htdocs\stautas\wp-admin\plugins.php(192): plugin_sandbox_scrape('stautas_admin/s...')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\stautas-admin.php på linje 46
+
+2022-03-15T10:22:16+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin/ClientController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\stautas-admin.php:46
+Stack trace:
+#0 C:\xampp\htdocs\stautas\wp-admin\includes\plugin.php(2288): include_once()
+#1 C:\xampp\htdocs\stautas\wp-admin\plugins.php(192): plugin_sandbox_scrape('stautas_admin/s...')
+#2 {main}
+  thrown i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\stautas-admin.php på linje 46
+
+2022-03-15T10:23:05+00:00 CRITICAL syntax error, unexpected token "=" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\view\admin\set-admin-pages.php på linje 13
+
+2022-03-15T10:25:42+00:00 CRITICAL syntax error, unexpected token "=" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\view\admin\set-admin-pages.php på linje 13
+
+2022-03-15T10:28:24+00:00 CRITICAL syntax error, unexpected token "=" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\view\admin\set-admin-pages.php på linje 13
+
+2022-03-15T11:18:28+00:00 CRITICAL syntax error, unexpected token "=" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\view\admin\set-admin-pages.php på linje 13
+
+2022-03-15T13:07:40+00:00 CRITICAL syntax error, unexpected variable "$client", expecting ")" i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\view\admin\clients\sub-users\create-sub-user.php på linje 41
+
+2022-03-15T13:14:22+00:00 CRITICAL Unclosed '{' on line 15 does not match ')' i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\view\admin\clients\client-details.php på linje 16
+
+2022-03-15T13:15:05+00:00 CRITICAL Unmatched ')' i C:\xampp\htdocs\stautas\wp-content\plugins\stautas_admin\view\admin\clients\client-details.php på linje 16
+

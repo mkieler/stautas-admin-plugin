@@ -1,0 +1,82 @@
+
+:root {
+  --primary: #1e90ff;
+}
+
+/*hej */
+
+*{
+	box-sizing: border-box;
+}
+
+
+#wpfooter{
+	display: none;
+}
+
+.content-wrap{
+	padding: 60px 80px;
+	max-width: 80%;
+	margin: 0 auto 0 auto;
+	background: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	display: block;
+}
+
+.header-title-wrap{
+	display: inline-block;
+}
+
+.wrap{
+	padding: 20px 0;
+	margin: 0;
+}
+
+nav{
+	padding-top: 20px;
+	border-bottom: solid 1px gray;
+	max-width: 80%;
+	margin: 80px auto 0 auto;
+}
+
+nav a{
+	text-decoration: none;
+	color: gray;
+	padding: 15px 25px;
+	display: block;
+	background: white;
+}
+
+nav a.active{
+	color: var(--primary);
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: var(--primary);
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-start;
+	align-items: top;
+	margin: 0;
+}
+
+nav ul li{
+	border: solid 1px gray;
+	margin: 0;
+}
+
+button{
+	background: var(--primary);
+	color: white;
+	padding: 15px 25px;
+	border: none;
+}
+
+#wpwrap, #wpcontent, #wpbody {
+    height: 100%;
+}
+
+
